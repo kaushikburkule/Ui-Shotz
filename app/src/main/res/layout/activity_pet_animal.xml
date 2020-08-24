@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFF5F4"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ambit_bold"
+        android:text="Hi, Androgynousis"
+        android:textColor="#1A2E35"
+        android:textSize="26sp" />
+
+    <TextView
+        android:layout_marginStart="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ambit_regular"
+        android:text="Checkout our new Product, Groups."
+        android:textColor="#1A2E35" />
+
+    <RelativeLayout
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/lola"
+            android:src="@drawable/ic_rectangle_lola" />
+
+        <ImageView
+            android:id="@+id/lola"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_lola" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/lola"
+            android:fontFamily="@font/ambit_semibold"
+            android:text="Lola is lost in your neighborhood! \nHelp us find her!"
+            android:textColor="#FFFFFF" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/ambit_semibold"
+            android:text="Walk Groups"
+            android:textColor="#1A2E35"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ambit_regular"
+            android:text="See All"
+            android:textAlignment="textEnd"
+            android:textColor="#1A2E35" />
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:scrollbars="none"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="32dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/directchild"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="174dp"
+                android:layout_height="254dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/ic_background_dog"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/ic_two_dog" />
+
+                <TextView
+                    android:text="Meet our lovely dogs walking with us!"
+                    android:padding="16sp"
+                    android:textColor="#1A2E35"
+                    android:fontFamily="@font/ambit_bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:paddingStart="16dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:src="@drawable/ic_beacon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_marginStart="4dp"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="#1A2E35"
+                        android:fontFamily="@font/ambit_regular"
+                        android:text="Valencia, Spain"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:paddingStart="16dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:src="@drawable/ic_people"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_marginStart="4dp"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="#1A2E35"
+                        android:fontFamily="@font/ambit_regular"
+                        android:text="8 members"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:paddingStart="16dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:src="@drawable/ic_single_person"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_marginStart="4dp"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="#1A2E35"
+                        android:fontFamily="@font/ambit_regular"
+                        android:text="Organized by Lee"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="174dp"
+                android:layout_height="254dp"
+                android:layout_marginStart="16dp"
+                android:background="@drawable/ic_background_dog"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/ic_two_small_dog" />
+
+                <TextView
+                    android:text="Find what your pet truly need!"
+                    android:padding="16sp"
+                    android:textColor="#1A2E35"
+                    android:fontFamily="@font/ambit_bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:paddingStart="16dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:src="@drawable/ic_beacon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_marginStart="4dp"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="#1A2E35"
+                        android:fontFamily="@font/ambit_regular"
+                        android:text="Pune, India"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:paddingStart="16dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:src="@drawable/ic_people"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_marginStart="4dp"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="#1A2E35"
+                        android:fontFamily="@font/ambit_regular"
+                        android:text="67 Joining"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:paddingStart="16dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:src="@drawable/ic_single_person"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_marginStart="4dp"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="#1A2E35"
+                        android:fontFamily="@font/ambit_regular"
+                        android:text="Hosted by Nick"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/ambit_semibold"
+            android:text="New Products"
+            android:textColor="#1A2E35"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ambit_regular"
+            android:text="See All"
+            android:textAlignment="textEnd"
+            android:textColor="#1A2E35" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginStart="32dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp">
+
+        <RelativeLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/head"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_dark_pallete"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"/>
+
+            <TextView
+                android:fontFamily="@font/ambit_bold"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="12dp"
+                android:text="Walk \nGroup"
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_marginEnd="-16dp"
+                android:scaleType="centerCrop"
+                android:layout_alignBottom="@+id/head"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_two_dog_head"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginStart="16dp"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/head2"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_rectangle_2"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"/>
+
+            <TextView
+                android:fontFamily="@font/ambit_bold"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="12dp"
+                android:text="Food \nProduct"
+                android:textColor="#1A2E35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_marginTop="-12dp"
+                android:layout_marginEnd="-22dp"
+                android:scaleType="centerCrop"
+                android:layout_alignBottom="@+id/head2"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_pedigress"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginStart="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp">
+
+        <RelativeLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/head3"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_rectangle_cyan"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"/>
+
+            <TextView
+                android:fontFamily="@font/ambit_bold"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="12dp"
+                android:text="Place to \nWalk"
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_marginTop="-12dp"
+                android:layout_marginEnd="-24dp"
+                android:scaleType="centerCrop"
+                android:layout_alignBottom="@+id/head3"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_patta"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginStart="16dp"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/head4"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_rectangle_sky"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"/>
+
+            <TextView
+                android:fontFamily="@font/ambit_bold"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="12dp"
+                android:text="Saloon \n&amp; Spa"
+                android:textColor="#1A2E35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_marginTop="-12dp"
+                android:layout_marginEnd="-22dp"
+                android:scaleType="centerCrop"
+                android:layout_alignBottom="@+id/head4"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_spa"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
