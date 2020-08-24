@@ -22,14 +22,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="32dp"
-                android:src="@drawable/ic_icons_menu" />
+                app:srcCompat="@drawable/ic_icons_menu" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:layout_margin="16dp"
-                android:src="@drawable/ic_status" />
+                app:srcCompat="@drawable/ic_status" />
 
             <TextView
                 android:id="@+id/header"
@@ -112,7 +112,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:src="@drawable/ic_icons_brain" />
+                    app:srcCompat="@drawable/ic_icons_brain" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -164,7 +164,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:src="@drawable/ic_icons__brain" />
+                    app:srcCompat="@drawable/ic_icons__brain" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"

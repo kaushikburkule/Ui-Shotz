@@ -14,7 +14,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="32dp"
-            android:src="@drawable/ic_back_flight" />
+            app:srcCompat="@drawable/ic_back_flight" />
 
         <TextView
             android:id="@+id/header"
@@ -113,7 +113,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8sp"
                         android:padding="16dp"
-                        android:src="@drawable/ic_down_plane" />
+                        app:srcCompat="@drawable/ic_down_plane" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -149,7 +149,7 @@
                 android:layout_centerVertical="true"
                 android:layout_marginEnd="32dp"
                 android:elevation="8sp"
-                android:src="@drawable/ic_arrows" />
+                app:srcCompat="@drawable/ic_arrows" />
 
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
@@ -170,7 +170,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8sp"
                         android:padding="16dp"
-                        android:src="@drawable/ic_location" />
+                        app:srcCompat="@drawable/ic_location" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -227,7 +227,7 @@
                         android:layout_gravity="center_vertical"
                         android:layout_marginStart="8sp"
                         android:padding="16dp"
-                        android:src="@drawable/ic_calendar" />
+                        app:srcCompat="@drawable/ic_calendar" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -272,7 +272,7 @@
                         android:layout_gravity="center_vertical"
                         android:layout_marginStart="8sp"
                         android:padding="16dp"
-                        android:src="@drawable/ic_office_chair" />
+                        app:srcCompat="@drawable/ic_office_chair" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -326,7 +326,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_marginStart="8sp"
                     android:padding="16dp"
-                    android:src="@drawable/ic_person" />
+                    app:srcCompat="@drawable/ic_person" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"

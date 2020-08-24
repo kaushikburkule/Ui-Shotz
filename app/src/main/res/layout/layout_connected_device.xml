@@ -45,7 +45,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
                     android:scaleType="fitStart"
-                    android:src="@drawable/ic_stars" />
+                    app:srcCompat="@drawable/ic_stars" />
 
             </LinearLayout>
 

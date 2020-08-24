@@ -11,6 +11,9 @@
         android:roundIcon="@drawable/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".MusicPlayer" />
+        <activity android:name=".PandemicCovid" />
+        <activity android:name=".WalletPayment" />
         <activity android:name=".PetAnimal">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

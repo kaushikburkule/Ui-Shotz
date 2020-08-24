@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#EFF5F4"
@@ -35,13 +36,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignBottom="@+id/lola"
-            android:src="@drawable/ic_rectangle_lola" />
+            app:srcCompat="@drawable/ic_rectangle_lola" />
 
         <ImageView
             android:id="@+id/lola"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_lola" />
+            app:srcCompat="@drawable/ic_lola" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -107,7 +108,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="80dp"
                     android:scaleType="fitStart"
-                    android:src="@drawable/ic_two_dog" />
+                    app:srcCompat="@drawable/ic_two_dog" />
 
                 <TextView
                     android:text="Meet our lovely dogs walking with us!"
@@ -124,7 +125,7 @@
                     android:layout_height="wrap_content">
 
                     <ImageView
-                        android:src="@drawable/ic_beacon"
+                        app:srcCompat="@drawable/ic_beacon"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
 
@@ -146,7 +147,7 @@
                     android:layout_height="wrap_content">
 
                     <ImageView
-                        android:src="@drawable/ic_people"
+                        app:srcCompat="@drawable/ic_people"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
 
@@ -168,7 +169,7 @@
                     android:layout_height="wrap_content">
 
                     <ImageView
-                        android:src="@drawable/ic_single_person"
+                        app:srcCompat="@drawable/ic_single_person"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
 
@@ -196,7 +197,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="80dp"
                     android:scaleType="fitStart"
-                    android:src="@drawable/ic_two_small_dog" />
+                    app:srcCompat="@drawable/ic_two_small_dog" />
 
                 <TextView
                     android:text="Find what your pet truly need!"
@@ -213,7 +214,7 @@
                     android:layout_height="wrap_content">
 
                     <ImageView
-                        android:src="@drawable/ic_beacon"
+                        app:srcCompat="@drawable/ic_beacon"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
 
@@ -235,7 +236,7 @@
                     android:layout_height="wrap_content">
 
                     <ImageView
-                        android:src="@drawable/ic_people"
+                        app:srcCompat="@drawable/ic_people"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
 
@@ -257,7 +258,7 @@
                     android:layout_height="wrap_content">
 
                     <ImageView
-                        android:src="@drawable/ic_single_person"
+                        app:srcCompat="@drawable/ic_single_person"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
 
@@ -319,7 +320,7 @@
             <ImageView
                 android:id="@+id/head"
                 android:scaleType="fitXY"
-                android:src="@drawable/ic_dark_pallete"
+                app:srcCompat="@drawable/ic_dark_pallete"
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"/>
 
@@ -337,7 +338,7 @@
                 android:scaleType="centerCrop"
                 android:layout_alignBottom="@+id/head"
                 android:layout_alignParentEnd="true"
-                android:src="@drawable/ic_two_dog_head"
+                app:srcCompat="@drawable/ic_two_dog_head"
                 android:layout_width="140dp"
                 android:layout_height="wrap_content"/>
 
@@ -351,7 +352,7 @@
             <ImageView
                 android:id="@+id/head2"
                 android:scaleType="fitXY"
-                android:src="@drawable/ic_rectangle_2"
+                app:srcCompat="@drawable/ic_rectangle_2"
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"/>
 
@@ -370,7 +371,7 @@
                 android:scaleType="centerCrop"
                 android:layout_alignBottom="@+id/head2"
                 android:layout_alignParentEnd="true"
-                android:src="@drawable/ic_pedigress"
+                app:srcCompat="@drawable/ic_pedigress"
                 android:layout_width="140dp"
                 android:layout_height="wrap_content"/>
 
@@ -392,7 +393,7 @@
             <ImageView
                 android:id="@+id/head3"
                 android:scaleType="fitXY"
-                android:src="@drawable/ic_rectangle_cyan"
+                app:srcCompat="@drawable/ic_rectangle_cyan"
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"/>
 
@@ -411,7 +412,7 @@
                 android:scaleType="centerCrop"
                 android:layout_alignBottom="@+id/head3"
                 android:layout_alignParentEnd="true"
-                android:src="@drawable/ic_patta"
+                app:srcCompat="@drawable/ic_patta"
                 android:layout_width="140dp"
                 android:layout_height="wrap_content"/>
 
@@ -425,7 +426,7 @@
             <ImageView
                 android:id="@+id/head4"
                 android:scaleType="fitXY"
-                android:src="@drawable/ic_rectangle_sky"
+                app:srcCompat="@drawable/ic_rectangle_sky"
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"/>
 
@@ -444,7 +445,7 @@
                 android:scaleType="centerCrop"
                 android:layout_alignBottom="@+id/head4"
                 android:layout_alignParentEnd="true"
-                android:src="@drawable/ic_spa"
+                app:srcCompat="@drawable/ic_spa"
                 android:layout_width="140dp"
                 android:layout_height="wrap_content"/>
 
