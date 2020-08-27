@@ -11,6 +11,7 @@
         android:roundIcon="@drawable/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".BooksActivity"></activity>
         <activity android:name=".MusicPlayer" />
         <activity android:name=".PandemicCovid" />
         <activity android:name=".WalletPayment" />
